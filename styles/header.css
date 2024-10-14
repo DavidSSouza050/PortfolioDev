@@ -3,7 +3,8 @@ header {
   background-size: cover;
   justify-items: center;
   padding-top: 120px;
-
+  border-bottom: solid 1px black;
+  
   #img-profile{
     width: 100px;
     height: 100px;
@@ -61,15 +62,25 @@ header {
     div{
       display: flex;
       background-color: var(--gray-300);
+      place-content: center;
       border-radius: 25px;
       padding-inline: 16px;
-      padding-block: 6px;
-      gap: 8px;
+      padding-block: 8px;
+      column-gap: 8px;
       align-items: center;
+      transition: 0.5s;
+      p{
+        font: var(--text-md);
+      }
+      &:hover{
+        transition: 0.5s;
+        transform: scale(1.1);
+      }
     }
   }
 
   #CaretDouble{
-    margin-block: 94px;
+    margin-top: 94px;
+    margin-bottom: 57px;
   }
 }

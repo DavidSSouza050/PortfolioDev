@@ -3,6 +3,33 @@
   display: grid;
 }
 
+/*gap*/
+.gap-24{
+  gap: 24px;
+}
+
+
+/*alignment*/
+.grid-center-item{
+  justify-items: center;
+}
+
+
+/*titles*/
+.title-sm{
+  font: var(--title-sm);
+  color: var(--gray-600)
+}
+.title-md{
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+.subtitle{
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+
 /*Colors*/
 .red{
   color: var(--red);
