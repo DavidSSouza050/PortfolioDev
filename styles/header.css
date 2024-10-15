@@ -3,7 +3,6 @@ header {
   background-size: cover;
   justify-items: center;
   padding-top: 120px;
-  border-bottom: solid 1px black;
   
   #img-profile{
     width: 100px;
@@ -52,7 +51,7 @@ header {
   }
 
 
-  #tecs{
+  #tech{
     display: flex;
     width: 754px;
     margin-top: 80px;

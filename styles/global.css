@@ -50,5 +50,12 @@ img{
   object-fit: cover;
 }
 
+p{
+  font: var(--text-sm);
+  color: var(--gray-500);
+}
 
 
+a{
+  text-decoration: none;
+}

@@ -18,7 +18,7 @@
 /*titles*/
 .title-sm{
   font: var(--title-sm);
-  color: var(--gray-600)
+  color: var(--gray-600);
 }
 .title-md{
   font: var(--title-md);
@@ -27,8 +27,12 @@
 .subtitle{
   font: var(--subtitle);
   color: var(--red);
+  margin-bottom: 8px;
 }
-
+/*Icon*/
+.icon{
+ 
+}
 
 /*Colors*/
 .red{
