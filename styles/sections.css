@@ -18,7 +18,9 @@
    
     .card{
       max-width: 330px;
-      height: 280px;
+      min-height: 280px;
+      height: auto;
+      overflow: hidden;
       background-color: var(--gray-300);
       padding: 13px;
       border-radius: 12px;
@@ -27,7 +29,24 @@
       img{
         border-radius: 12px;
       }
-  
+      
+      div{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .acess-icon{
+        width: 30px;
+        height: 30px;
+
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+
       h3{
         margin-top: 20px;
       }

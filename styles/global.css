@@ -55,7 +55,10 @@ p{
   color: var(--gray-500);
 }
 
-
 a{
   text-decoration: none;
+}
+
+.flex{
+  display: flex;
 }

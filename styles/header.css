@@ -68,6 +68,7 @@ header {
       column-gap: 8px;
       align-items: center;
       transition: 0.5s;
+      cursor: pointer;
       p{
         font: var(--text-md);
       }
