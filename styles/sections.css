@@ -36,16 +36,18 @@
         margin-top: 10px;
         align-items: center;
         gap: 10px;
-      }
 
-      .acess-icon{
+        .acess-icon{
         width: 30px;
         height: 30px;
 
-        &:hover{
-          transform: scale(1.1);
+          &:hover{
+            transform: scale(1.1);
+          }
         }
       }
+
+      
 
       h3{
         margin-top: 20px;
