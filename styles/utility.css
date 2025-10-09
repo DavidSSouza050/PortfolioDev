@@ -3,6 +3,11 @@
   display: grid;
 }
 
+.flex{
+  display: flex;
+}
+
+
 /*gap*/
 .gap-24{
   gap: 24px;
@@ -14,6 +19,18 @@
   justify-items: center;
 }
 
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-justify-center{
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
 
 /*titles*/
 .title-sm{

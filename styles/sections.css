@@ -15,6 +15,10 @@
   #container-job {
     grid-template-columns: repeat(3, 1fr);
     flex-wrap: wrap;
+
+    @media (width <= 56em){
+      grid-template-columns:  1fr;
+    }
    
     .card{
       max-width: 330px;
@@ -70,7 +74,9 @@
       grid-template-columns: repeat(3, 1fr);
       flex-wrap: wrap;
       margin-top: 56px;
-
+      @media (width <= 56em){
+        grid-template-columns:  1fr;
+      }
       div{
         width: 280px;
         height: 155px;
@@ -85,3 +91,5 @@
       }
     }
 }
+
+

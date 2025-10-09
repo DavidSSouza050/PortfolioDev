@@ -1,7 +1,6 @@
 header {
   background-image: url(../assets/Background_Intro.png);
   background-size: cover;
-  justify-items: center;
   padding-top: 120px;
   
   #img-profile{
@@ -52,11 +51,19 @@ header {
 
 
   #tech{
-    display: flex;
-    width: 754px;
+    max-width: 754px;
+    width: 100%;
     margin-top: 80px;
     gap: 16px;
+    
+    display: flex;
     justify-content: center;
+
+    @media (width <= 56em){
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
 
     div{
       display: flex;
@@ -69,6 +76,7 @@ header {
       align-items: center;
       transition: 0.5s;
       cursor: pointer;
+
       p{
         font: var(--text-md);
       }
@@ -82,5 +90,13 @@ header {
   #CaretDouble{
     margin-top: 94px;
     margin-bottom: 57px;
+  }
+
+  @media (width <= 56em) {
+    padding-inline: 1rem;
+  }
+
+  @media (width <= 23.75em) {
+    padding-inline: .2rem;
   }
 }
