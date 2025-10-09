@@ -22,7 +22,6 @@
    
     .card{
       max-width: 330px;
-      min-height: 280px;
       height: auto;
       overflow: hidden;
       background-color: var(--gray-300);
